@@ -24,13 +24,16 @@ Here's a breakdown of the steps I took to integrate OpenRGB:
 While this process was mostly smooth, I did face one small issue: ensuring that OpenRGB started automatically upon system boot. The solution was to create a login trigger to launch OpenRGB and its server, making sure it was ready whenever my system started. This not only streamlined the boot process but ensured that the RGB lighting control remained consistent without manual intervention.
 
 **Tuya - The Good, the Bad, and the "It Sucks"**
+
 Then there's Tuya—a behemoth in the smart home world, and not always for the better. On the surface, Tuya offers an almost endless range of compatible devices, providing solutions for almost every imaginable smart home need. However, the downside is that their ecosystem is notorious for connectivity issues, and the integration process can be frustratingly inconsistent.
 
 I won’t sugarcoat it: my experience with Tuya devices was not a pleasant one. While they theoretically should integrate with Homebridge via plugins, I encountered constant struggles with syncing devices, maintaining stable connections, and ensuring reliable functionality within HomeKit. The process was so cumbersome that it often felt like a constant battle just to keep the devices connected.
 
 However, this experience was a valuable lesson in troubleshooting and resilience. It forced me to dig into plugin documentation, learn about cloud-to-local control issues, and even explore alternative firmware options. While I don’t recommend Tuya for seamless Homebridge integration, working through these difficulties significantly broadened my understanding of smart home interoperability and network management.
 
+
 **Final Thoughts**
+
 Working with Homebridge has given me a deep dive into smart home ecosystems, device interoperability, and network-based solutions. Each step of integrating devices—whether straightforward like Hue lights or more complex like OpenRGB and Tuya—provided a learning opportunity that expanded my technical knowledge.
 
 I found that my ability to identify challenges, seek out solutions, and adapt my setup for optimal performance are qualities that have served me well not only in this project but also in broader technical pursuits. Every integration comes with its quirks, and being able to problem-solve on the fly is key to creating a smart home setup that genuinely enhances daily life.
