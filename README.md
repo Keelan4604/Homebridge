@@ -4,9 +4,11 @@ I've always found great satisfaction in bringing all my smart home devices into 
 This journey wasn't without its challenges. Here, I'll outline my experience with integrating several key components into Homebridge, detailing both my struggles and successes. Hopefully, this will serve as a comprehensive showcase of my problem-solving approach and adaptability to various platforms and plugins.
 
 **Hue Lights - An Effortless Start**
+
 The Philips Hue system is one of the easiest smart lighting systems to integrate with Homebridge. These lights have a native HomeKit support option, making the connection nearly plug-and-play. For anyone beginning their Homebridge setup, this is an ideal starting point since it provides a smooth experience that builds confidence in the overall setup process. While it wasn't a technical challenge, it demonstrated how streamlined HomeKit-compatible devices can be when integrated properly.
 
 **OpenRGB - Advanced Control over RGB Lighting**
+
 One of my primary goals was to centralize the control of all my RGB lighting—not just for accessories like keyboards and mice, but for the entire system, including internal components like motherboard headers, CPU lights, and case LEDs. I had initially been using Corsair’s iCUE software, which worked well for macro control and peripheral lighting. However, I wanted a solution that was:
 
   1. Free to use
